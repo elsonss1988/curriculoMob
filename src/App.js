@@ -37,8 +37,8 @@ const App=() => {
             </TouchableOpacity>
           </View>
         </View>
-       <Card/>
-       <Card/>
+        <Card titulo="Experiência Profissional"/>
+        <Card titulo="Formação Academica"/>       
       </View>
     </>
   );
