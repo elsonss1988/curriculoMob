@@ -37,8 +37,16 @@ const App=() => {
             </TouchableOpacity>
           </View>
         </View>
-        <Card titulo="Experiência Profissional"/>
-        <Card titulo="Formação Academica"/>       
+        <Card titulo="Experiência Profissional">
+        <Text style={style.card_content_text}> Digital Solvers</Text> 
+          <Text style={style.card_content_text}> Teleperformance</Text>       
+          <Text style={style.card_content_text}> Follow-UP</Text>  
+        </Card>
+        <Card titulo="Formação Academica">
+        <Text style={style.card_content_text}> Engenharia da Computação</Text> 
+          <Text style={style.card_content_text}> Univesp</Text>       
+          <Text style={style.card_content_text}> 08/2021</Text>  
+        </Card>       
       </View>
     </>
   );
@@ -74,7 +82,10 @@ const style=StyleSheet.create({
     width:'60%',
     marginTop:10,
   },
-  
+  card_content_text:{
+    color:'#939393',
+    marginBottom:5,
+  }
 
 });
 export default App;

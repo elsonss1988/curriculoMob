@@ -18,10 +18,7 @@ const style= StyleSheet.create({
       card_content:{
         marginTop:10,    
       },
-      card_content_text:{
-        color:'#939393',
-        marginBottom:5,
-      }
+
 
 })
 
