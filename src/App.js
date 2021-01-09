@@ -40,7 +40,7 @@ const App=() => {
         <Card titulo="Experiência Profissional">
         <Text style={style.card_content_text}> Digital Solvers</Text> 
           <Text style={style.card_content_text}> Teleperformance</Text>       
-          <Text style={style.card_content_text}> Follow-UP</Text>  
+          <Text style={style.card_content_text}> Follow-UPgit</Text>  
         </Card>
         <Card titulo="Formação Academica">
         <Text style={style.card_content_text}> Engenharia da Computação</Text> 
